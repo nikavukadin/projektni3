@@ -33,18 +33,30 @@ body {
     background-color: #dda0dd;
 }
 
-header, footer {
+header {
     background-color: #333;
-    color: #fff;
+    color: white;
     text-align: left;
     padding: 20px 0;
 }
-
-header h1 {
-    font-family: "nikavukadin", Arial, sans-serif; 
-    font-size: 2em;
-    color: lightgrey;
+footer {
+    background-color: lightgray;
+    color: white;
+    text-align: left;
+    padding: 20px 0;
 }
+@font-face {
+  font-family: "nikavukadin";
+  src: url("nikavukadin.ttf") format("truetype");
+}
+
+.nikavukadin {
+  font-family: "nikavukadin", sans-serif;
+  font-size: 48px;
+  text-align: center;
+  color: lightgray;
+}
+
 
 header h2 {
     font-size: 1.5em;
@@ -97,7 +109,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: white;
     text-decoration: none;
 }
 
